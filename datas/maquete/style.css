@@ -1,0 +1,41 @@
+.maclasse1{
+	background-color: #FF0000;
+	padding: 2px;
+}
+
+.nav.navbar-nav li a {
+	color: white !important;
+	font-size: 17px;
+}
+.navbar-inverse .navbar-toggle {
+    border-color :white;
+    }
+
+.navbar-brand {
+	color: white !important;
+}
+.maclasse2 {
+text-align: center;
+background-color: #00B233;
+font-size: 20px;
+padding: 75px 45px 75px 45px;
+}
+.img{
+	margin-top: 20px;
+	border-radius:20px;
+	background-color: black;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: red;}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    
+    background-color: red;
+}
+.dropdown-menu{
+	background-color: red;
+}
+.navbar{
+	border:0px;
+	border-radius: 0px;
+}
