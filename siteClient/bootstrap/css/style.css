@@ -1,0 +1,59 @@
+.image-header{
+	background: url("../../images/magasin.jpg") center center;
+	height:400px;
+	width:100%;
+	margin-bottom:100px;
+}
+.navbar.navbar-default  {
+background-color:red;	
+}
+.nav.navbar-nav li a{
+color:white;
+}
+.dropdown-menu{
+background-color:red;
+}
+#bouton{
+background-color:red;
+}
+.dropdown-menu li a:hover {
+background-color:#e7402e;
+}
+.contact{
+	background-color:#222;
+	color:white;
+	text-align:center;
+}
+.row{
+	background-color:#222;
+}
+.container{
+	width:100%;
+}
+.contact h3{
+	margin-left:1.000em;
+}
+.contact ul{
+	margin-right:2.000em;	
+}
+.information{
+	text-align:center;
+}
+.contact ul li {
+	list-style-type:none;	
+}
+.information a {
+	color:red;
+}
+.body{
+	color:grey;
+}
+.telefon{
+	margin-right:35px;
+}
+.container-com{
+	margin-right:50px;
+}
+#com{
+	margin-right:70px;
+}
