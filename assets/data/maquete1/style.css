@@ -16,17 +16,13 @@
 }
 .maclasse2 {
 text-align: center;
-background-color: #00B233;
 font-size: 20px;
 padding: 75px 45px 75px 45px;
 }
-.img{
-	margin-top: 20px;
-	border-radius:20px;
-	background-color: black;
-}
+
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: red;}
+    background-color: red;
+}
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
     
@@ -35,6 +31,7 @@ padding: 75px 45px 75px 45px;
 .dropdown-menu{
 	background-color: red;
 }
+
 .navbar{
 	border:0px;
 	border-radius: 0px;
