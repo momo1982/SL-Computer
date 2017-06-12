@@ -72,14 +72,23 @@
 	</div>
 
 	<div class="container">
-		<div class="jumbotron">
-			<h2>SL Computer</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit assumenda ipsum natus eius debitis veritatis laudantium modi! Minima debitis ipsa atque similique, ipsum adipisci ducimus minus cupiditate odit voluptatibus?</p>
+		<div class="col-md-10">
+			<div class="jumbotron">
+				<h2>SL Computer</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit assumenda ipsum natus eius debitis veritatis laudantium modi! Minima debitis ipsa atque similique, ipsum adipisci ducimus minus cupiditate odit voluptatibus?</p>
+			</div>
+			<div class="image img-rounded"></div>
 		</div>
-	</div>
 
-	<div class="container">
-		<div class="image img-rounded"></div>
+		<aside class="col-md-2">
+			<img src="assets/img/apple.png">
+			<img src="assets/img/canon.png">
+			<img src="assets/img/acer.jpeg">
+			<img src="assets/img/asus.jpg">
+			<img src="assets/img/playstation.jpg">
+			<img src="assets/img/xbox.png">
+			<img src="assets/img/nintendo.jpg">
+		</aside>
 	</div>
 
 	<div class="container title">
@@ -269,5 +278,18 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/slick.min.js"></script>
 	<script src="assets/js/app.js"></script>
+
+	<script>
+	$(document).ready(function(){
+		$('aside').slick({
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			arrows: false,
+			vertical: true,
+			infinite: true,
+			autoplay: true,
+		});
+	});
+	</script>
 </body>
 </html>
