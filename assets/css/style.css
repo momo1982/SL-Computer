@@ -81,6 +81,11 @@ aside img {
 	background-color: #cdcdcd;
 }
 
+.item p { margin-bottom: 0; }
+
+p.item-price { font-weight: bold; font-size: 15px; }
+p.promo { color: red; }
+
 .title h3 {
 	text-align: left;
 }
