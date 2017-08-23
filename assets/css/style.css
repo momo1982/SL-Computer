@@ -31,9 +31,7 @@ body {
 }
 
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form{
-	margin: 0;
-}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{	margin: 0; }
 
 .navigation a { color: #fff !important; }
 
@@ -43,26 +41,26 @@ body {
 }
 
 .navbar-nav>li>.dropdown-menu {
-    margin-top: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    background-color: #d6362e;
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	background-color: #d6362e;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    color: #555;
-    background-color: #d6362e;
+	color: #555;
+	background-color: #d6362e;
 }
 
 .dropdown-menu > li > a:hover {
-    background-color: #e7402e;
-    background-image: none;
+	background-color: #e7402e;
+	background-image: none;
 }
 
 .navbar-default {
 	background-color: none;
-    border-color: none;
-    border: 0;
+	border-color: none;
+	border: 0;
 }
 
 .jumbotron { margin-bottom: 20px; }
@@ -121,7 +119,7 @@ footer {
 .navbar-default .navbar-toggle:hover { background-color: #d6362e; }
 .navbar-default .navbar-toggle:focus { background-color: #d6362e; }
 
-.image { 
+.image {
 	min-height: 400px;
 	background: url('http://www.aidec-info.com/ckfinder/userfiles/images/Magasin/DSC01509.JPG') bottom center no-repeat;
 }
@@ -133,29 +131,36 @@ footer .informations li { text-align: left; }
 footer a { color: #ed4e49; }
 
 footer .contact ul {
-  list-style: none;
-  padding: 0;
-  display: inline-grid;
+	list-style: none;
+	padding: 0;
+	display: inline-grid;
 }
-
 footer .contact li {
-  padding-left: 1.3em;
-  display: inline-flex;
+	padding-left: 1.3em;
+	display: inline-flex;
 }
 footer li.phone:before {
-	content: "\f095"; 
+	content: "\f095";
+	font-family: FontAwesome;
 	font-family: FontAwesome;
 	display: inline-block;
-	margin-left: -1.3em; 
-	width: 1.3em; 
+	margin-left: -1.3em;
+	width: 1.3em;
+}
+footer li.address:before {
+	content: "\f2b9";
+	font-family: FontAwesome;
+	display: inline-block;
+	margin-left: -1.3em;
+	width: 1.3em;
 }
 
 footer .contact li.envelope:before {
-	content: "\f0e0"; 
+	content: "\f0e0";
 	font-family: FontAwesome;
 	display: inline-block;
-	margin-left: -1.3em; 
-	width: 1.3em; 
+	margin-left: -1.3em;
+	width: 1.3em;
 }
 
 .comment-container { margin-top: 5px; }
@@ -167,48 +172,48 @@ footer hr { border-color: #4b4a4a }
 footer button { margin: 5px 5px; }
 
 @media (max-width: 960px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-   .navbar-nav .open .dropdown-menu {
-       position: static;
-       float: none;
-       width: auto;
-       margin-top: 0;
-       background-color: transparent;
-       border: 0;
-       -webkit-box-shadow: none;
-       box-shadow: none;
-    }
+	.navbar-header {
+			float: none;
+	}
+	.navbar-left,.navbar-right {
+			float: none !important;
+	}
+	.navbar-toggle {
+			display: block;
+	}
+	.navbar-collapse {
+			border-top: 1px solid transparent;
+			box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-fixed-top {
+			top: 0;
+			border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+			display: none!important;
+	}
+	.navbar-nav {
+			float: none!important;
+			margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+			float: none;
+	}
+	.navbar-nav>li>a {
+			padding-top: 10px;
+			padding-bottom: 10px;
+	}
+	.collapse.in{
+			display:block !important;
+	}
+	.navbar-nav .open .dropdown-menu {
+			position: static;
+			float: none;
+			width: auto;
+			margin-top: 0;
+			background-color: transparent;
+			border: 0;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+	}
 }
