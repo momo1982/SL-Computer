@@ -73,7 +73,7 @@
 	</div>
 
 	<div class="container">
-		<div class="col-md-10">
+		<div class="col-md-10 col-xs-10">
 			<div class="jumbotron">
 				<h2>SL Computer</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit assumenda ipsum natus eius debitis veritatis laudantium modi! Minima debitis ipsa atque similique, ipsum adipisci ducimus minus cupiditate odit voluptatibus?</p>
@@ -81,7 +81,7 @@
 			<div class="image img-rounded"></div>
 		</div>
 
-		<aside class="col-md-2">
+		<aside class="col-md-2 col-xs-2">
 			<img src="assets/img/apple.png">
 			<img src="assets/img/canon.png">
 			<img src="assets/img/acer.jpeg">
@@ -269,12 +269,12 @@
 						<h3>Ils nous ont fait confiance</h3>
 						<div class="comment-container">
 							<div class="comment">
-								<p class="author">Jean-François Abdel Malikoum : </p>
+								<p class="author">Jean-François : </p>
 								<p class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quia <br>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis cupiditate delectus</p>
 							</div>
 							<div class="comment">
-								<p class="author">Nadine-Corry : </p>
+								<p class="author">Nadine : </p>
 								<p class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis cupiditate delectus <br>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quia <br>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quiaLorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quia bbb</p>
@@ -305,6 +305,16 @@
 			vertical: true,
 			infinite: true,
 			autoplay: true,
+			adaptativeHeight: true,
+			responsive: [
+		    {
+		      breakpoint: 1024,
+		      settings: {
+		        slidesToShow: 7,
+		        slidesToScroll: 3,
+		        infinite: true,
+		      }
+			}]
 		});
 	});
 	</script>
