@@ -45,5 +45,8 @@ $(document).ready(function(){
 		vertical: true,
 		infinite: true,
 		autoplay: true,
+		centerPadding: "100px",
+    	draggable: false,
+    	adaptativeHeight: true
 	});
 });

@@ -1,8 +1,14 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
 	background-color: #fff;
 	color: #000;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 18px;
+  margin: 0 0 200px;
 }
 
 .clear { clear: both; }
@@ -100,7 +106,7 @@ footer {
 	font-size: 17px;
 	margin-top: 50px;
 	text-align: center;
-	position: relative; 
+	position: absolute; 
 	bottom: 0;
 }
 
@@ -153,6 +159,7 @@ footer .contact li.envelope:before {
 }
 
 .comment-container { margin-top: 5px; }
+.comment-container .comment { height: 100px; display: block; overflow-y: hidden;}
 
 footer p.author { display: inline-block; margin-bottom: -5px;}
 footer p.body { display: inline-block; color: grey;}
