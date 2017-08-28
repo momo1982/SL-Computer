@@ -219,4 +219,5 @@ footer button { margin: 5px 5px; }
 	}
 	body { margin: 0 !important; }
 	footer { position: static !important;}
+	.row { margin-right: 0; margin-left: 0; }
 }
