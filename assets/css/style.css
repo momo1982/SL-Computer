@@ -65,6 +65,22 @@ body {
 .jumbotron { margin-bottom: 20px; }
 .jumbotron h2 { text-align: center; }
 .jumbotron p { text-align: center; }
+.jeux1{
+	height: 550px;
+	background-color: #5B60E2;
+	padding-top: 200px;
+}
+.jeux2{
+	height: 550px;
+	background-color: #7FBB42;
+	padding-top: 200px;
+}
+.jeux3{
+	height: 550px;
+	background-color: #E70012;
+	padding-top: 200px;
+}
+
 
 aside { float: right; }
 
