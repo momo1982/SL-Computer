@@ -12,7 +12,6 @@
 	<link rel="stylesheet" href="assets/css/slick.css"/>
   	<link rel="stylesheet" href="assets/css/slick-theme.css"/>
 	<link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 <body>
 
@@ -36,35 +35,36 @@
 
 				<div class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li><a href="#">Accueil</a></li>
+						<li><a href="index.html">Accueil</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service <span class="caret"></span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Matériels <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Service 1</a></li>
-								<li><a href="#">Service 2</a></li>
-								<li><a href="#">Service 3</a></li>
-								<li><a href="#">Service 4</a></li>
-								<li><a href="#">Service 5</a></li>
+								<li><a href="informatique.html">Informatique</a></li>
+								<li><a href="jeuxvideo.html">Jeux-Vidéo</a></li>
+								<li><a href="satellite.html">Satellite</a></li>
+								<li><a href="telephonie.html">Télephonie</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Abonnements <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Abonnements 1</a></li>
-								<li><a href="#">Abonnements 2</a></li>
-								<li><a href="#">Abonnements 3</a></li>
-								<li><a href="#">Abonnements 4</a></li>
-								<li><a href="#">Abonnements 5</a></li>
+								<li><a href="scarlet.html">Scarlet</a></li>
+								<li><a href="orange.html">Orange</a></li>
+								<li><a href="iptv.html">IPTV</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Partenaires</a></li>
-						<li><a href="#">Qui sommes-nous</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li role="separator" class="divider"></li>
-						<li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;S'enregistrer</a></li>
-						<li><a href="#"><i class="fa fa-sign-in" aria-hidden></i>&nbsp;Connexion</a></li>
+						<li><a href="partenaire.html">Partenaires</a></li>
+						<li><a href="qui.html">Qui sommes-nous</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="informatique.html#service">Informatique</a></li>
+								<li><a href="jeuxvideo.html#service">Jeux-Vidéo</a></li>
+								<li><a href="satellite.html#service">Satellite</a></li>
+								<li><a href="telephonie.html#service">Télephonie</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -73,130 +73,150 @@
 	</div>
 
 	<div class="container">
-		<div class="jumbotron">
-			<h2>SL Computer</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit assumenda ipsum natus eius debitis veritatis laudantium modi! Minima debitis ipsa atque similique, ipsum adipisci ducimus minus cupiditate odit voluptatibus?</p>
+		<div class="col-md-10 col-xs-12">
+			<div class="jumbotron">
+				<h2>SL Computer</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit assumenda ipsum natus eius debitis veritatis laudantium modi! Minima debitis ipsa atque similique, ipsum adipisci ducimus minus cupiditate odit voluptatibus?</p>
+			</div>
+			<div class="image img-rounded"></div>
+		</div>
+
+		<aside class="col-md-2 hidden-xs">
+			<img src="assets/img/apple.png">
+			<img src="assets/img/canon.png">
+			<img src="assets/img/acer.jpeg">
+			<img src="assets/img/asus.jpg">
+			<img src="assets/img/playstation.jpg">
+			<img src="assets/img/xbox.png">
+			<img src="assets/img/nintendo.jpg">
+		</aside>
+	</div>
+	<div class="container newsletter">
+		<div class="col-md-10 col-md-offset-1 col-xs-12">
+			<label>&nbsp;Abonnez-vous et profitez de nos promotions exclusives et de l'actualité produits :</label>
+			<div class="input-group">
+			  <input type="text" class="form-control" placeholder="newsletter@slcomputer.be">
+			  <span class="input-group-btn">
+					<button class="btn btn-default" type="button">S'inscrire</button>
+			  </span>
+			</div>
 		</div>
 	</div>
-
-	<div class="container">
-		<div class="image img-rounded"></div>
-	</div>
-
 	<div class="container title">
 		<h3>> Produits neufs</h3>
 		<div class="pneuf">
 			<div class="item">
 				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price promo">170€</p>
 			</div>
 			<div class="item">
 				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 2</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price">225€</p>
 			</div>
 
 			<div class="item">
 				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère 3</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price ">170€</p>
 			</div>
 			<div class="item">
 				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 4</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price promo">225€</p>
 			</div>
 
 			<div class="item">
 				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère 5</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price promo">170€</p>
 			</div>
 			<div class="item">
 				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 6</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price">225€</p>
 			</div>
 
 			<div class="item">
 				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère 7</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price promo">170€</p>
 			</div>
 			<div class="item">
 				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 8</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price">225€</p>
 			</div>
 
 			<div class="item">
 				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère 9</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price">170€</p>
 			</div>
 			<div class="item">
 				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 10</p>
-			</div>
-
-			<div class="item">
-				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère 11</p>
-			</div>
-			<div class="item">
-				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 12</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price promo">225€</p>
 			</div>
 		</div>
 	</div>
-
 	<div class="container title">
 		<h3>> Produit d'occasion</h3>
 		<div class="pneuf">
 			<div class="item">
 				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price promo">170€</p>
 			</div>
 			<div class="item">
 				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 2</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price">225€</p>
 			</div>
 
 			<div class="item">
 				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère 3</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price ">170€</p>
 			</div>
 			<div class="item">
 				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 4</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price promo">225€</p>
 			</div>
 
 			<div class="item">
 				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère 5</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price promo">170€</p>
 			</div>
 			<div class="item">
 				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 6</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price">225€</p>
 			</div>
 
 			<div class="item">
 				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère 7</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price promo">170€</p>
 			</div>
 			<div class="item">
 				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 8</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price">225€</p>
 			</div>
 
 			<div class="item">
 				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère 9</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price">170€</p>
 			</div>
 			<div class="item">
 				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 10</p>
-			</div>
-
-			<div class="item">
-				<img src="https://www.topachat.com/images/interface/category/w_/w_cm_2011_/w_cm_2011_-200x200.jpg" alt="" width="200" height="200">
-				<p>Carte mère 11</p>
-			</div>
-			<div class="item">
-				<img src="http://www.textorm.com/images/produit/H61M-DG3-USB3-1.jpg" alt="">
-				<p>Carte mère 12</p>
+				<p class="item-name">Carte mère</p>
+				<p class="item-price promo">225€</p>
 			</div>
 		</div>
 	</div>
@@ -209,8 +229,11 @@
 					<div class="contact">
 						<h3>Contactez-nous</h3>
 						<ul>
+							<li class="address">
+								&nbsp; Rue du presbytère 34 - 1080 Bruxelles
+							</li>
 							<li class="phone">
-								&nbsp; 0477/77.77.77
+								&nbsp; 02/414.58.37
 							</li>
 							<li class="envelope">
 								&nbsp; info@slcomputer.be
@@ -220,11 +243,9 @@
 							<button class="btn btn-primary">
 								&nbsp;<i class="fa fa-facebook">&nbsp;</i>
 							</button>
-
 							<button class="btn btn-info">
 								&nbsp;<i class="fa fa-twitter"></i>&nbsp;
 							</button>
-
 							<button class="btn btn-danger">
 								&nbsp;<i class="fa fa-linkedin"></i>&nbsp;
 							</button>
@@ -235,9 +256,9 @@
 				<div class="col-md-4 col-sm-12 col-xs-12">
 					<div class="informations">
 						<h3>Informations</h3>
-						<a href="#">CDV</a><br>
-						<a href="#">CGU</a><br>
-						<a href="#">Contact</a>
+						<a href="cdv.html">CDV</a><br>
+						<a href="cgu.html">CGU</a><br>
+						<a href="contact.html">Contact</a>
 					</div>
 				</div>
 
@@ -247,12 +268,14 @@
 						<div class="comment-container">
 							<div class="comment">
 								<p class="author">Jean-François : </p>
-								<p class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quia</p>
+								<p class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quia <br>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis cupiditate delectus</p>
 							</div>
 							<div class="comment">
-								<p class="author">Nadine-Corry : </p>
-								<p class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quia.<br>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis cupiditate delectus iure a voluptatum, inventore quaerat, alias eum voluptates laborum, ipsa sunt earum dignissimos dolore id accusamus iste adipisci.</p>
+								<p class="author">Nadine : </p>
+								<p class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis cupiditate delectus <br>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quia <br>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quiaLorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quia bbb</p>
 							</div>
 							<div class="comment">
 								<p class="author">Kevin-Louis : </p>
@@ -270,5 +293,28 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/slick.min.js"></script>
 	<script src="assets/js/app.js"></script>
+
+	<script>
+	$(document).ready(function(){
+		$('aside').slick({
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			arrows: false,
+			vertical: true,
+			infinite: true,
+			autoplay: true,
+			adaptativeHeight: true,
+			responsive: [
+		    {
+		      breakpoint: 1024,
+		      settings: {
+		        slidesToShow: 7,
+		        slidesToScroll: 3,
+		        infinite: true,
+		      }
+			}]
+		});
+	});
+	</script>
 </body>
 </html>
